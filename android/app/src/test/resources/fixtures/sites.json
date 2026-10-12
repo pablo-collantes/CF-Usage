@@ -1,0 +1,6 @@
+[
+  {"host": "mail.example.com", "zone": "example.com", "requests": 61000, "bytes": 920000000, "blocked": 14,
+   "cachedShare": 0.12, "status4xx": 0.01, "status5xx": 0.0, "service": "worker:mailbox", "spark": [3, 4, 5], "killable": []},
+  {"host": "example.com", "zone": "example.com", "requests": 900, "bytes": 12000000, "blocked": 0,
+   "cachedShare": 0.8, "status4xx": 0.05, "status5xx": 0.001, "service": null, "spark": [], "killable": []}
+]

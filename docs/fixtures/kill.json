@@ -1,0 +1,248 @@
+{
+ "available": [
+  {
+   "kind": "waf_block",
+   "target": "jobs.example.com",
+   "label": "Block jobs.example.com",
+   "description": "Cloudflare answers every request to jobs.example.com with a 403 before it reaches a Worker, so blocked requests aren't billed. Takes 6-20 s to reach every data centre. WebSockets already open stay open."
+  },
+  {
+   "kind": "cron_off",
+   "target": "job-tracker",
+   "label": "Stop job-tracker's cron triggers",
+   "description": "Removes the cron schedules; undo puts the same schedules back. HTTP traffic keeps flowing."
+  },
+  {
+   "kind": "workers_dev_off",
+   "target": "links-api",
+   "label": "Turn off links-api on workers.dev",
+   "description": "Stops requests through the workers.dev URL and preview URLs. Custom domains, cron triggers and queue consumers keep running."
+  },
+  {
+   "kind": "workers_dev_off",
+   "target": "jobs-worker",
+   "label": "Turn off jobs-worker on workers.dev",
+   "description": "Stops requests through the workers.dev URL and preview URLs. Custom domains, cron triggers and queue consumers keep running."
+  },
+  {
+   "kind": "cron_off",
+   "target": "jobs-worker",
+   "label": "Stop jobs-worker's cron triggers",
+   "description": "Removes the cron schedules; undo puts the same schedules back. HTTP traffic keeps flowing."
+  },
+  {
+   "kind": "workers_dev_off",
+   "target": "fitness-api",
+   "label": "Turn off fitness-api on workers.dev",
+   "description": "Stops requests through the workers.dev URL and preview URLs. Custom domains, cron triggers and queue consumers keep running."
+  },
+  {
+   "kind": "waf_block",
+   "target": "mail.example.com",
+   "label": "Block mail.example.com",
+   "description": "Cloudflare answers every request to mail.example.com with a 403 before it reaches a Worker, so blocked requests aren't billed. Takes 6-20 s to reach every data centre. WebSockets already open stay open."
+  },
+  {
+   "kind": "cron_off",
+   "target": "mailbox",
+   "label": "Stop mailbox's cron triggers",
+   "description": "Removes the cron schedules; undo puts the same schedules back. HTTP traffic keeps flowing."
+  },
+  {
+   "kind": "waf_block",
+   "target": "research.example.com",
+   "label": "Block research.example.com",
+   "description": "Cloudflare answers every request to research.example.com with a 403 before it reaches a Worker, so blocked requests aren't billed. Takes 6-20 s to reach every data centre. WebSockets already open stay open."
+  },
+  {
+   "kind": "waf_block",
+   "target": "games.example.com",
+   "label": "Block games.example.com",
+   "description": "Cloudflare answers every request to games.example.com with a 403 before it reaches a Worker, so blocked requests aren't billed. Takes 6-20 s to reach every data centre. WebSockets already open stay open."
+  },
+  {
+   "kind": "workers_dev_off",
+   "target": "sensor-hub",
+   "label": "Turn off sensor-hub on workers.dev",
+   "description": "Stops requests through the workers.dev URL and preview URLs. Custom domains, cron triggers and queue consumers keep running."
+  },
+  {
+   "kind": "waf_block",
+   "target": "music.example.com",
+   "label": "Block music.example.com",
+   "description": "Cloudflare answers every request to music.example.com with a 403 before it reaches a Worker, so blocked requests aren't billed. Takes 6-20 s to reach every data centre. WebSockets already open stay open."
+  },
+  {
+   "kind": "cron_off",
+   "target": "music-library",
+   "label": "Stop music-library's cron triggers",
+   "description": "Removes the cron schedules; undo puts the same schedules back. HTTP traffic keeps flowing."
+  },
+  {
+   "kind": "waf_block",
+   "target": "live.example.com",
+   "label": "Block live.example.com",
+   "description": "Cloudflare answers every request to live.example.com with a 403 before it reaches a Worker, so blocked requests aren't billed. Takes 6-20 s to reach every data centre. WebSockets already open stay open."
+  },
+  {
+   "kind": "waf_block",
+   "target": "prices.example.com",
+   "label": "Block prices.example.com",
+   "description": "Cloudflare answers every request to prices.example.com with a 403 before it reaches a Worker, so blocked requests aren't billed. Takes 6-20 s to reach every data centre. WebSockets already open stay open."
+  },
+  {
+   "kind": "cron_off",
+   "target": "price-tracker",
+   "label": "Stop price-tracker's cron triggers",
+   "description": "Removes the cron schedules; undo puts the same schedules back. HTTP traffic keeps flowing."
+  },
+  {
+   "kind": "waf_block",
+   "target": "car.example.com",
+   "label": "Block car.example.com",
+   "description": "Cloudflare answers every request to car.example.com with a 403 before it reaches a Worker, so blocked requests aren't billed. Takes 6-20 s to reach every data centre. WebSockets already open stay open."
+  },
+  {
+   "kind": "waf_block",
+   "target": "clinic.example.com",
+   "label": "Block clinic.example.com",
+   "description": "Cloudflare answers every request to clinic.example.com with a 403 before it reaches a Worker, so blocked requests aren't billed. Takes 6-20 s to reach every data centre. WebSockets already open stay open."
+  },
+  {
+   "kind": "workers_dev_off",
+   "target": "clinic-staging",
+   "label": "Turn off clinic-staging on workers.dev",
+   "description": "Stops requests through the workers.dev URL and preview URLs. Custom domains, cron triggers and queue consumers keep running."
+  },
+  {
+   "kind": "workers_dev_off",
+   "target": "status-mailer",
+   "label": "Turn off status-mailer on workers.dev",
+   "description": "Stops requests through the workers.dev URL and preview URLs. Custom domains, cron triggers and queue consumers keep running."
+  },
+  {
+   "kind": "waf_block",
+   "target": "books.example.com",
+   "label": "Block books.example.com",
+   "description": "Cloudflare answers every request to books.example.com with a 403 before it reaches a Worker, so blocked requests aren't billed. Takes 6-20 s to reach every data centre. WebSockets already open stay open."
+  },
+  {
+   "kind": "waf_block",
+   "target": "example.com",
+   "label": "Block example.com",
+   "description": "Cloudflare answers every request to example.com with a 403 before it reaches a Worker, so blocked requests aren't billed. Takes 6-20 s to reach every data centre. WebSockets already open stay open."
+  },
+  {
+   "kind": "waf_block",
+   "target": "portfolio.example.com",
+   "label": "Block portfolio.example.com",
+   "description": "Cloudflare answers every request to portfolio.example.com with a 403 before it reaches a Worker, so blocked requests aren't billed. Takes 6-20 s to reach every data centre. WebSockets already open stay open."
+  },
+  {
+   "kind": "waf_block",
+   "target": "test.example.com",
+   "label": "Block test.example.com",
+   "description": "Cloudflare answers every request to test.example.com with a 403 before it reaches a Worker, so blocked requests aren't billed. Takes 6-20 s to reach every data centre. WebSockets already open stay open."
+  },
+  {
+   "kind": "waf_block",
+   "target": "home.example.com",
+   "label": "Block home.example.com",
+   "description": "Cloudflare answers every request to home.example.com with a 403 before it reaches a Worker, so blocked requests aren't billed. Takes 6-20 s to reach every data centre. WebSockets already open stay open."
+  },
+  {
+   "kind": "waf_block",
+   "target": "photos.example.com",
+   "label": "Block photos.example.com",
+   "description": "Cloudflare answers every request to photos.example.com with a 403 before it reaches a Worker, so blocked requests aren't billed. Takes 6-20 s to reach every data centre. WebSockets already open stay open."
+  },
+  {
+   "kind": "waf_block",
+   "target": "request.example.com",
+   "label": "Block request.example.com",
+   "description": "Cloudflare answers every request to request.example.com with a 403 before it reaches a Worker, so blocked requests aren't billed. Takes 6-20 s to reach every data centre. WebSockets already open stay open."
+  },
+  {
+   "kind": "waf_block",
+   "target": "staging.example.com",
+   "label": "Block staging.example.com",
+   "description": "Cloudflare answers every request to staging.example.com with a 403 before it reaches a Worker, so blocked requests aren't billed. Takes 6-20 s to reach every data centre. WebSockets already open stay open."
+  },
+  {
+   "kind": "waf_block",
+   "target": "remote.example.com",
+   "label": "Block remote.example.com",
+   "description": "Cloudflare answers every request to remote.example.com with a 403 before it reaches a Worker, so blocked requests aren't billed. Takes 6-20 s to reach every data centre. WebSockets already open stay open."
+  },
+  {
+   "kind": "waf_block",
+   "target": "status.example.com",
+   "label": "Block status.example.com",
+   "description": "Cloudflare answers every request to status.example.com with a 403 before it reaches a Worker, so blocked requests aren't billed. Takes 6-20 s to reach every data centre. WebSockets already open stay open."
+  },
+  {
+   "kind": "queue_pause",
+   "target": "83e6eb65c89af4f1fce3b3a1c6942cd3",
+   "label": "Pause queue job-tracker-jobs",
+   "description": "Stops delivery to consumers. Messages wait in the queue until resumed, and producers can still send (sends still count)."
+  },
+  {
+   "kind": "queue_pause",
+   "target": "f8a0357d72161ced2d5738452dad50e5",
+   "label": "Pause queue job-tracker-jobs-dlq",
+   "description": "Stops delivery to consumers. Messages wait in the queue until resumed, and producers can still send (sends still count)."
+  },
+  {
+   "kind": "queue_pause",
+   "target": "028c66220064bd61c0aebd210c06196d",
+   "label": "Pause queue jobs-worker-jobs",
+   "description": "Stops delivery to consumers. Messages wait in the queue until resumed, and producers can still send (sends still count)."
+  },
+  {
+   "kind": "queue_pause",
+   "target": "afcca8c52434891db587e7ff17a2eef8",
+   "label": "Pause queue jobs-worker-jobs-dlq",
+   "description": "Stops delivery to consumers. Messages wait in the queue until resumed, and producers can still send (sends still count)."
+  },
+  {
+   "kind": "queue_pause",
+   "target": "0e37af099e94bbd45b73ed9bb15cfefe",
+   "label": "Pause queue mailbox-ingest",
+   "description": "Stops delivery to consumers. Messages wait in the queue until resumed, and producers can still send (sends still count)."
+  },
+  {
+   "kind": "queue_pause",
+   "target": "223ecdc5a2f5f2f60ad21240b0d438ec",
+   "label": "Pause queue research-feed-jobs",
+   "description": "Stops delivery to consumers. Messages wait in the queue until resumed, and producers can still send (sends still count)."
+  }
+ ],
+ "kills": [
+  {
+   "kind": "cron_off",
+   "target": "jobs-worker",
+   "label": "Stop jobs-worker's cron triggers",
+   "description": "Removes the cron schedules; undo puts the same schedules back. HTTP traffic keeps flowing.",
+   "id": "cron_off:jobs-worker",
+   "state": "active",
+   "appliedAt": "2026-10-07T01:46:13Z",
+   "verifiedAt": null,
+   "restoredAt": null,
+   "reason": "fixture capture (dry run)",
+   "error": null
+  },
+  {
+   "kind": "waf_block",
+   "target": "mail.example.com",
+   "label": "Block mail.example.com",
+   "description": "Cloudflare answers every request to mail.example.com with a 403 before it reaches a Worker, so blocked requests aren't billed. Takes 6-20 s to reach every data centre. WebSockets already open stay open.",
+   "id": "waf_block:mail.example.com",
+   "state": "restored",
+   "appliedAt": "2026-10-07T01:45:32Z",
+   "verifiedAt": null,
+   "restoredAt": "2026-10-07T01:45:59Z",
+   "reason": "fixture capture (dry run)",
+   "error": null
+  }
+ ]
+}

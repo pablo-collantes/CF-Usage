@@ -1,0 +1,29 @@
+# Secrets and local config
+.env
+android/local.properties
+
+# Keystores (the optional android/debug.keystore stays local too)
+*.keystore
+*.jks
+
+# Go (server/dev/ holds a local config, tokens and database)
+/server/bin/
+/server/dev/
+/server/*.db
+/server/*.db-*
+
+# Android / Gradle
+.gradle/
+build/
+.kotlin/
+.idea/
+*.iml
+captures/
+
+# Python
+__pycache__/
+
+# Editor / agent state
+.claude/
+NOTES.md
+.DS_Store

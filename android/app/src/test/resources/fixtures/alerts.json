@@ -1,0 +1,7 @@
+[
+  {"id": "threshold:workers_requests:50:2026-09-23", "kind": "threshold", "severity": "info", "metric": "workers_requests",
+   "title": "Workers requests at 50%", "body": "5M of 10M used.", "createdAt": "2026-10-05T10:00:00Z",
+   "ackedAt": "2026-10-05T11:00:00Z", "suggested": []},
+  {"id": "monitor:poll", "kind": "monitor", "severity": "critical", "metric": null, "title": "Poller failing",
+   "body": "GraphQL returned 429.", "createdAt": "2026-10-06T10:00:00Z", "ackedAt": null, "suggested": []}
+]

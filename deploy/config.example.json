@@ -1,0 +1,13 @@
+{
+  "account_id": "",
+  "zone_ids": [],
+  "read_token_file": "/etc/cfusage/read_token",
+  "kill_token_file": "/etc/cfusage/kill_token",
+  "db": "/var/lib/cfusage/cfusage.db",
+  "listen": "127.0.0.1:8787",
+  "allowed_logins": ["you@example.com"],
+  "cycle_day": 1,
+  "poll_seconds": 60,
+  "dry_run": true,
+  "log_level": "info"
+}

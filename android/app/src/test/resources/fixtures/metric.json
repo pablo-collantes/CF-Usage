@@ -1,0 +1,10 @@
+{
+  "metric": {"key": "workers_requests", "label": "Workers requests", "group": "Workers", "unit": "count", "kind": "flow",
+     "used": 1273920, "included": 10000000, "pct": 0.127392, "projected": 2754000, "projectedPct": 0.2754, "rate24h": 91000,
+     "status": "ok", "overage": {"units": 0, "usd": 0}, "price": "$0.30 / million", "sampled": true, "top": [], "daily": []},
+  "range": "cycle",
+  "bucket": "day",
+  "series": [{"t": "2026-09-23T00:00:00Z", "value": 80000}, {"t": "2026-09-24T00:00:00Z", "value": 95000}],
+  "cumulative": [{"t": "2026-09-23T00:00:00Z", "value": 80000}, {"t": "2026-09-24T00:00:00Z", "value": 175000}],
+  "byResource": [{"name": "mailbox", "value": 571640, "share": 0.449}, {"name": "links-api", "value": 511870, "share": 0.402}]
+}

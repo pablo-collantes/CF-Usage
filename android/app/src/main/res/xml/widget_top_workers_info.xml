@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Large preset. -->
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:configure="io.github.pablocollantes.cfusage.widget.WidgetConfigActivity"
+    android:description="@string/widget_large_desc"
+    android:initialLayout="@layout/glance_default_loading_layout"
+    android:minWidth="250dp"
+    android:minHeight="180dp"
+    android:minResizeWidth="110dp"
+    android:minResizeHeight="50dp"
+    android:targetCellWidth="4"
+    android:targetCellHeight="3"
+    android:resizeMode="horizontal|vertical"
+    android:updatePeriodMillis="0"
+    android:widgetFeatures="reconfigurable"
+    android:widgetCategory="home_screen" />

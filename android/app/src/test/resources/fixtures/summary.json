@@ -1,0 +1,36 @@
+{
+  "generatedAt": "2026-10-06T21:39:12Z",
+  "lastPollAt": "2026-10-06T21:39:05Z",
+  "pollError": null,
+  "dataAsOf": "2026-10-06T21:36:00Z",
+  "cycle": {"start": "2026-09-23T00:00:00Z", "end": "2026-10-23T00:00:00Z", "cycleDay": 23, "elapsed": 0.4625, "daysLeft": 16.1},
+  "status": "warn",
+  "estimatedBillUsd": 5.42,
+  "metrics": [
+    {"key": "workers_requests", "label": "Workers requests", "group": "Workers", "unit": "count", "kind": "flow",
+     "used": 1273920, "included": 10000000, "pct": 0.127392, "projected": 2754000, "projectedPct": 0.2754, "rate24h": 91000,
+     "status": "ok", "overage": {"units": 0, "usd": 0}, "price": "$0.30 / million", "sampled": true,
+     "top": [{"name": "mailbox", "value": 571640}, {"name": "links-api", "value": 511870}, {"name": "jobs-worker", "value": 91040}],
+     "daily": [{"date": "2026-09-23", "value": 80000}, {"date": "2026-09-24", "value": 95000}, {"date": "2026-09-25", "value": 61000}]},
+    {"key": "do_sql_rows_read", "label": "DO SQLite rows read", "group": "Durable Objects", "unit": "count", "kind": "flow",
+     "used": 21391162300, "included": 25000000000, "pct": 0.855, "projected": 46000000000, "projectedPct": 1.84, "rate24h": 1500000000,
+     "status": "warn", "overage": {"units": 21000000000, "usd": 0.42}, "price": "$0.001 / million", "sampled": false,
+     "top": [{"name": "mailbox:Mailbox", "value": 21379790000}], "daily": []},
+    {"key": "r2_storage_gb", "label": "R2 storage", "group": "R2", "unit": "gb", "kind": "storage",
+     "used": 4.917, "included": 10, "pct": 0.4917, "projected": 4.95, "projectedPct": 0.495, "rate24h": 4.95,
+     "status": "ok", "overage": {"units": 0, "usd": 0}, "price": "$0.015 / GB-mo", "sampled": false,
+     "top": [], "daily": [{"date": "2026-09-23", "value": 4.9}]}
+  ],
+  "alerts": [
+    {"id": "projection:do_sql_rows_read:2026-10-06", "kind": "projection", "severity": "warn", "metric": "do_sql_rows_read",
+     "title": "DO SQLite rows read projected at 184%", "body": "21.4B of 25B used, 16 days left. mailbox:Mailbox made 99%.",
+     "createdAt": "2026-10-06T20:01:00Z", "ackedAt": null,
+     "suggested": [{"kind": "waf_block", "target": "mail.example.com", "label": "Block mail.example.com", "description": "Blocks every request to mail.example.com at Cloudflare's edge."}]}
+  ],
+  "kills": [
+    {"id": "waf_block:test.example.com", "kind": "waf_block", "target": "test.example.com",
+     "label": "Block test.example.com", "description": "Blocks every request.", "state": "active",
+     "appliedAt": "2026-10-06T21:30:00Z", "verifiedAt": "2026-10-06T21:30:18Z", "restoredAt": null, "reason": "test", "error": null}
+  ],
+  "futureField": {"ignored": true}
+}

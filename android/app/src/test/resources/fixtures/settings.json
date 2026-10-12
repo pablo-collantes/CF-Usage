@@ -1,0 +1,2 @@
+{"cycleDay": 23, "thresholds": {"info": 0.5, "warn": 0.75, "critical": 0.9}, "projectionAlert": true,
+ "spikeFactor": 5, "spikeMinShare": 0.01, "muted": ["kv_lists"]}

@@ -1,0 +1,11 @@
+{
+  "available": [
+    {"kind": "waf_block", "target": "mail.example.com", "label": "Block mail.example.com", "description": "Blocks every request."},
+    {"kind": "queue_pause", "target": "7f0c", "label": "Pause mail-ingest", "description": "Messages wait in the queue."}
+  ],
+  "kills": [
+    {"id": "cron_off:jobs-worker", "kind": "cron_off", "target": "jobs-worker", "label": "Stop jobs-worker crons",
+     "description": "Removes cron triggers.", "state": "restored", "appliedAt": "2026-10-01T10:00:00Z",
+     "verifiedAt": null, "restoredAt": "2026-10-01T11:00:00Z", "reason": null, "error": null}
+  ]
+}

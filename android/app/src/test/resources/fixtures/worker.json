@@ -1,0 +1,8 @@
+{
+  "row": {"name": "mailbox", "kind": "worker", "requests": 57164, "errors": 12, "errorRate": 0.00021, "cpuMs": 340711.4,
+   "cpuMsPerRequest": 5.96, "subrequests": 1200, "shareOfRequests": 0.449, "hosts": ["mail.example.com"], "spark": [1, 2], "killable": []},
+  "bucket": "hour",
+  "series": [{"t": "2026-10-06T20:00:00Z", "requests": 2400, "errors": 1, "cpuMs": 14000}],
+  "colos": [{"colo": "DFW", "requests": 50000}, {"colo": "IAD", "requests": 7164}],
+  "site": null
+}

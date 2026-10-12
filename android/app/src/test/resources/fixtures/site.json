@@ -1,0 +1,12 @@
+{
+  "row": {"host": "mail.example.com", "zone": "example.com", "requests": 61000, "bytes": 920000000, "blocked": 14,
+   "cachedShare": 0.12, "status4xx": 0.01, "status5xx": 0.0, "service": "worker:mailbox", "spark": [], "killable": []},
+  "bucket": "hour",
+  "series": [{"t": "2026-10-06T20:00:00Z", "requests": 2500, "blocked": 2}],
+  "paths": [{"path": "/jmap/eventsource", "requests": 30000}],
+  "countries": [{"country": "US", "requests": 59000}, {"country": "DE", "requests": 300}],
+  "statuses": [{"status": 200, "requests": 60000}, {"status": 403, "requests": 14}],
+  "securityActions": [{"action": "block", "requests": 14}, {"action": "", "requests": 60986}],
+  "userAgents": [{"agent": "Chrome", "requests": 40000}],
+  "cache": [{"status": "dynamic", "requests": 53000}]
+}

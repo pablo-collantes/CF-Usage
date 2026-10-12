@@ -1,0 +1,19 @@
+{
+ "dryRun": true,
+ "freshness": {
+  "d1AnalyticsAdaptiveGroups": "2026-10-07T01:44:00Z",
+  "d1StorageAdaptiveGroups": "2026-10-07T01:38:00Z",
+  "durableObjectsInvocationsAdaptiveGroups": "2026-10-07T01:44:00Z",
+  "durableObjectsPeriodicGroups": "2026-10-07T01:44:00Z",
+  "kvOperationsAdaptiveGroups": "2026-10-07T01:44:00Z",
+  "pagesFunctionsInvocationsAdaptiveGroups": "2026-10-06T23:03:00Z",
+  "queueMessageOperationsAdaptiveGroups": "2026-10-07T01:14:00Z",
+  "r2OperationsAdaptiveGroups": "2026-10-07T01:36:00Z",
+  "r2StorageAdaptiveGroups": "2026-10-07T01:20:00Z",
+  "workersInvocationsAdaptive": "2026-10-07T01:45:00Z"
+ },
+ "lastPollAt": "2026-10-07T01:45:30Z",
+ "ok": true,
+ "pollError": null,
+ "version": "0.1.0"
+}

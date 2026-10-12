@@ -1,0 +1,51 @@
+# cfusage: the Cloudflare usage monitor's poller and API (server/).
+# Install: binary at /usr/local/bin/cfusage, config at /etc/cfusage/config.json,
+# tokens at /etc/cfusage/read_token and /etc/cfusage/kill_token (root:cfusage 0640).
+# It listens on 127.0.0.1:8787 only; `tailscale serve` publishes it on the tailnet.
+[Unit]
+Description=Cloudflare usage monitor (cfusage)
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=simple
+User=cfusage
+Group=cfusage
+ExecStart=/usr/local/bin/cfusage -config /etc/cfusage/config.json
+Restart=always
+RestartSec=5
+# /var/lib/cfusage (the SQLite history) and /etc/cfusage, created and owned for it.
+StateDirectory=cfusage
+StateDirectoryMode=0750
+ConfigurationDirectory=cfusage
+ConfigurationDirectoryMode=0750
+
+# Hardening: it only needs outbound HTTPS and its own state directory.
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=true
+PrivateDevices=true
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectKernelLogs=true
+ProtectControlGroups=true
+ProtectClock=true
+ProtectHostname=true
+RestrictNamespaces=true
+RestrictRealtime=true
+RestrictSUIDSGID=true
+LockPersonality=true
+MemoryDenyWriteExecute=true
+RestrictAddressFamilies=AF_INET AF_INET6 AF_UNIX
+SystemCallArchitectures=native
+SystemCallFilter=@system-service
+SystemCallFilter=~@privileged
+# A filtered call fails with EPERM rather than killing the process.
+SystemCallErrorNumber=EPERM
+CapabilityBoundingSet=
+AmbientCapabilities=
+UMask=0027
+
+[Install]
+WantedBy=multi-user.target

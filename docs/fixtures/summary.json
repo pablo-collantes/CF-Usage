@@ -1,0 +1,2353 @@
+{
+ "generatedAt": "2026-10-07T01:46:13Z",
+ "lastPollAt": "2026-10-07T01:45:32Z",
+ "pollError": null,
+ "dataAsOf": "2026-10-07T01:44:00Z",
+ "cycle": {
+  "start": "2026-09-23T00:00:00Z",
+  "end": "2026-10-23T00:00:00Z",
+  "cycleDay": 23,
+  "elapsed": 0.4691216229798252,
+  "daysLeft": 15.926351310605243
+ },
+ "status": "ok",
+ "estimatedBillUsd": 5,
+ "metrics": [
+  {
+   "key": "workers_requests",
+   "label": "Workers requests",
+   "group": "Workers",
+   "unit": "count",
+   "kind": "flow",
+   "used": 234869,
+   "included": 10000000,
+   "pct": 0.0234869,
+   "projected": 542566.1073208933,
+   "projectedPct": 0.05425661073208933,
+   "rate24h": 19320,
+   "status": "ok",
+   "overage": {
+    "units": 0,
+    "usd": 0
+   },
+   "price": "$0.30 / million",
+   "sampled": true,
+   "top": [
+    {
+     "name": "links-api",
+     "value": 122072
+    },
+    {
+     "name": "mailbox",
+     "value": 66698
+    },
+    {
+     "name": "jobs-worker",
+     "value": 21123
+    },
+    {
+     "name": "pages:pages-worker--1000001-production",
+     "value": 5378
+    },
+    {
+     "name": "pages:pages-worker--1000002-production",
+     "value": 5374
+    }
+   ],
+   "daily": [
+    {
+     "date": "2026-09-23",
+     "value": 10689
+    },
+    {
+     "date": "2026-09-24",
+     "value": 10931
+    },
+    {
+     "date": "2026-09-25",
+     "value": 11610
+    },
+    {
+     "date": "2026-09-26",
+     "value": 13506
+    },
+    {
+     "date": "2026-09-27",
+     "value": 14592
+    },
+    {
+     "date": "2026-09-28",
+     "value": 13559
+    },
+    {
+     "date": "2026-09-29",
+     "value": 13648
+    },
+    {
+     "date": "2026-09-30",
+     "value": 14803
+    },
+    {
+     "date": "2026-10-01",
+     "value": 47361
+    },
+    {
+     "date": "2026-10-02",
+     "value": 17050
+    },
+    {
+     "date": "2026-10-03",
+     "value": 15932
+    },
+    {
+     "date": "2026-10-04",
+     "value": 14714
+    },
+    {
+     "date": "2026-10-05",
+     "value": 15791
+    },
+    {
+     "date": "2026-10-06",
+     "value": 19280
+    },
+    {
+     "date": "2026-10-07",
+     "value": 1394
+    }
+   ]
+  },
+  {
+   "key": "workers_cpu_ms",
+   "label": "Workers CPU time",
+   "group": "Workers",
+   "unit": "ms",
+   "kind": "flow",
+   "used": 670783.768,
+   "included": 30000000,
+   "pct": 0.022359458933333333,
+   "projected": 1429871.7755520032,
+   "projectedPct": 0.047662392518400105,
+   "rate24h": 42587.76299999999,
+   "status": "ok",
+   "overage": {
+    "units": 0,
+    "usd": 0
+   },
+   "price": "$0.02 / million ms",
+   "sampled": true,
+   "top": [
+    {
+     "name": "mailbox",
+     "value": 352245.54
+    },
+    {
+     "name": "links-api",
+     "value": 110125.4
+    },
+    {
+     "name": "price-tracker",
+     "value": 97118.589
+    },
+    {
+     "name": "research-feed",
+     "value": 56650.111
+    },
+    {
+     "name": "jobs-worker",
+     "value": 34429.185
+    }
+   ],
+   "daily": [
+    {
+     "date": "2026-09-23",
+     "value": 12205.794
+    },
+    {
+     "date": "2026-09-24",
+     "value": 10482.430000000002
+    },
+    {
+     "date": "2026-09-25",
+     "value": 10158.322
+    },
+    {
+     "date": "2026-09-26",
+     "value": 10304.027
+    },
+    {
+     "date": "2026-09-27",
+     "value": 14641.448
+    },
+    {
+     "date": "2026-09-28",
+     "value": 24729.531
+    },
+    {
+     "date": "2026-09-29",
+     "value": 24483.492
+    },
+    {
+     "date": "2026-09-30",
+     "value": 47932.194
+    },
+    {
+     "date": "2026-10-01",
+     "value": 358775.897
+    },
+    {
+     "date": "2026-10-02",
+     "value": 31319.74500000001
+    },
+    {
+     "date": "2026-10-03",
+     "value": 26417.441999999995
+    },
+    {
+     "date": "2026-10-04",
+     "value": 25480.116999999995
+    },
+    {
+     "date": "2026-10-05",
+     "value": 28635.370000000003
+    },
+    {
+     "date": "2026-10-06",
+     "value": 42303.742999999995
+    },
+    {
+     "date": "2026-10-07",
+     "value": 2905.398
+    }
+   ]
+  },
+  {
+   "key": "do_requests",
+   "label": "DO requests",
+   "group": "Durable Objects",
+   "unit": "count",
+   "kind": "flow",
+   "used": 188061,
+   "included": 1000000,
+   "pct": 0.188061,
+   "projected": 400878.98486846697,
+   "projectedPct": 0.40087898486846696,
+   "rate24h": 4958,
+   "status": "ok",
+   "overage": {
+    "units": 0,
+    "usd": 0
+   },
+   "price": "$0.15 / million",
+   "sampled": true,
+   "top": [
+    {
+     "name": "sensor-hub:MqttBroker",
+     "value": 112640
+    },
+    {
+     "name": "mailbox:Mailbox",
+     "value": 66535
+    },
+    {
+     "name": "mailbox:Fetcher",
+     "value": 8769
+    },
+    {
+     "name": "status-page:LoginLimiter",
+     "value": 113
+    },
+    {
+     "name": "clinic-demo:OrgRoom",
+     "value": 4
+    }
+   ],
+   "daily": [
+    {
+     "date": "2026-09-23",
+     "value": 0
+    },
+    {
+     "date": "2026-09-24",
+     "value": 12570
+    },
+    {
+     "date": "2026-09-25",
+     "value": 17019
+    },
+    {
+     "date": "2026-09-26",
+     "value": 16872
+    },
+    {
+     "date": "2026-09-27",
+     "value": 16804
+    },
+    {
+     "date": "2026-09-28",
+     "value": 16629
+    },
+    {
+     "date": "2026-09-29",
+     "value": 16476
+    },
+    {
+     "date": "2026-09-30",
+     "value": 17019
+    },
+    {
+     "date": "2026-10-01",
+     "value": 53131
+    },
+    {
+     "date": "2026-10-02",
+     "value": 4670
+    },
+    {
+     "date": "2026-10-03",
+     "value": 4330
+    },
+    {
+     "date": "2026-10-04",
+     "value": 3661
+    },
+    {
+     "date": "2026-10-05",
+     "value": 3569
+    },
+    {
+     "date": "2026-10-06",
+     "value": 4873
+    },
+    {
+     "date": "2026-10-07",
+     "value": 436
+    }
+   ]
+  },
+  {
+   "key": "do_duration_gbs",
+   "label": "DO duration",
+   "group": "Durable Objects",
+   "unit": "gbs",
+   "kind": "flow",
+   "used": 7253.63890368,
+   "included": 400000,
+   "pct": 0.0181340972592,
+   "projected": 15462.17131840019,
+   "projectedPct": 0.03865542829600047,
+   "rate24h": 136.65383577600002,
+   "status": "ok",
+   "overage": {
+    "units": 0,
+    "usd": 0
+   },
+   "price": "$12.50 / million GB-s",
+   "sampled": false,
+   "top": [
+    {
+     "name": "mailbox:Fetcher",
+     "value": 5526.17938176
+    },
+    {
+     "name": "sensor-hub:MqttBroker",
+     "value": 987.5051296000001
+    },
+    {
+     "name": "mailbox:Mailbox",
+     "value": 738.40052544
+    },
+    {
+     "name": "status-page:LoginLimiter",
+     "value": 1.5513663999999996
+    },
+    {
+     "name": "clinic-demo:OrgRoom",
+     "value": 0.00250048
+    }
+   ],
+   "daily": [
+    {
+     "date": "2026-09-23",
+     "value": 0
+    },
+    {
+     "date": "2026-09-24",
+     "value": 115.91533836800001
+    },
+    {
+     "date": "2026-09-25",
+     "value": 143.378205568
+    },
+    {
+     "date": "2026-09-26",
+     "value": 142.44767206399996
+    },
+    {
+     "date": "2026-09-27",
+     "value": 156.181210368
+    },
+    {
+     "date": "2026-09-28",
+     "value": 172.954759552
+    },
+    {
+     "date": "2026-09-29",
+     "value": 139.70333772799998
+    },
+    {
+     "date": "2026-09-30",
+     "value": 208.96730380800003
+    },
+    {
+     "date": "2026-10-01",
+     "value": 5505.188133119999
+    },
+    {
+     "date": "2026-10-02",
+     "value": 118.542862848
+    },
+    {
+     "date": "2026-10-03",
+     "value": 114.94097817599999
+    },
+    {
+     "date": "2026-10-04",
+     "value": 165.318047616
+    },
+    {
+     "date": "2026-10-05",
+     "value": 125.08338841599998
+    },
+    {
+     "date": "2026-10-06",
+     "value": 137.056678272
+    },
+    {
+     "date": "2026-10-07",
+     "value": 7.893234560000001
+    }
+   ]
+  },
+  {
+   "key": "do_sql_rows_read",
+   "label": "DO SQLite rows read",
+   "group": "Durable Objects",
+   "unit": "count",
+   "kind": "flow",
+   "used": 220736698,
+   "included": 25000000000,
+   "pct": 0.00882946792,
+   "projected": 639091591.3040018,
+   "projectedPct": 0.025563663652160073,
+   "rate24h": 26268094,
+   "status": "ok",
+   "overage": {
+    "units": 0,
+    "usd": 0
+   },
+   "price": "$0.001 / million",
+   "sampled": false,
+   "top": [
+    {
+     "name": "mailbox:Mailbox",
+     "value": 220620424
+    },
+    {
+     "name": "mailbox:Fetcher",
+     "value": 116177
+    },
+    {
+     "name": "status-page:LoginLimiter",
+     "value": 91
+    },
+    {
+     "name": "sensor-hub:MqttBroker",
+     "value": 4
+    },
+    {
+     "name": "clinic-demo:OrgRoom",
+     "value": 2
+    }
+   ],
+   "daily": [
+    {
+     "date": "2026-09-23",
+     "value": 0
+    },
+    {
+     "date": "2026-09-24",
+     "value": 6
+    },
+    {
+     "date": "2026-09-25",
+     "value": 200
+    },
+    {
+     "date": "2026-09-26",
+     "value": 120
+    },
+    {
+     "date": "2026-09-27",
+     "value": 180
+    },
+    {
+     "date": "2026-09-28",
+     "value": 104
+    },
+    {
+     "date": "2026-09-29",
+     "value": 24
+    },
+    {
+     "date": "2026-09-30",
+     "value": 6040
+    },
+    {
+     "date": "2026-10-01",
+     "value": 116626276
+    },
+    {
+     "date": "2026-10-02",
+     "value": 24841684
+    },
+    {
+     "date": "2026-10-03",
+     "value": 21940086
+    },
+    {
+     "date": "2026-10-04",
+     "value": 15355701
+    },
+    {
+     "date": "2026-10-05",
+     "value": 13850179
+    },
+    {
+     "date": "2026-10-06",
+     "value": 25606360
+    },
+    {
+     "date": "2026-10-07",
+     "value": 2509733
+    }
+   ]
+  },
+  {
+   "key": "do_sql_rows_written",
+   "label": "DO SQLite rows written",
+   "group": "Durable Objects",
+   "unit": "count",
+   "kind": "flow",
+   "used": 1037794,
+   "included": 50000000,
+   "pct": 0.02075588,
+   "projected": 2212206.70539126,
+   "projectedPct": 0.0442441341078252,
+   "rate24h": 3385,
+   "status": "ok",
+   "overage": {
+    "units": 0,
+    "usd": 0
+   },
+   "price": "$1.00 / million",
+   "sampled": false,
+   "top": [
+    {
+     "name": "mailbox:Mailbox",
+     "value": 952298
+    },
+    {
+     "name": "mailbox:Fetcher",
+     "value": 85404
+    },
+    {
+     "name": "status-page:LoginLimiter",
+     "value": 91
+    },
+    {
+     "name": "sensor-hub:MqttBroker",
+     "value": 1
+    }
+   ],
+   "daily": [
+    {
+     "date": "2026-09-23",
+     "value": 0
+    },
+    {
+     "date": "2026-09-24",
+     "value": 1
+    },
+    {
+     "date": "2026-09-25",
+     "value": 81
+    },
+    {
+     "date": "2026-09-26",
+     "value": 0
+    },
+    {
+     "date": "2026-09-27",
+     "value": 61
+    },
+    {
+     "date": "2026-09-28",
+     "value": 20
+    },
+    {
+     "date": "2026-09-29",
+     "value": 0
+    },
+    {
+     "date": "2026-09-30",
+     "value": 6750
+    },
+    {
+     "date": "2026-10-01",
+     "value": 824459
+    },
+    {
+     "date": "2026-10-02",
+     "value": 194279
+    },
+    {
+     "date": "2026-10-03",
+     "value": 3826
+    },
+    {
+     "date": "2026-10-04",
+     "value": 1539
+    },
+    {
+     "date": "2026-10-05",
+     "value": 3137
+    },
+    {
+     "date": "2026-10-06",
+     "value": 3358
+    },
+    {
+     "date": "2026-10-07",
+     "value": 282
+    }
+   ]
+  },
+  {
+   "key": "do_sql_storage_gb",
+   "label": "DO SQLite storage",
+   "group": "Durable Objects",
+   "unit": "gb",
+   "kind": "storage",
+   "used": 0.161965944,
+   "included": 5,
+   "pct": 0.0323931888,
+   "projected": 0.254393278,
+   "projectedPct": 0.0508786556,
+   "rate24h": 0.34682061200000003,
+   "status": "ok",
+   "overage": {
+    "units": 0,
+    "usd": 0
+   },
+   "price": "$0.20 / GB-month",
+   "sampled": false,
+   "top": [
+    {
+     "name": "mailbox:Mailbox",
+     "value": 0.34587034
+    },
+    {
+     "name": "clinic-demo:NotesRoom",
+     "value": 0.000909312
+    },
+    {
+     "name": "sensor-hub:MqttBroker",
+     "value": 1.6384e-05
+    },
+    {
+     "name": "mailbox:Fetcher",
+     "value": 1.2288e-05
+    },
+    {
+     "name": "clinic-demo:OrgRoom",
+     "value": 1.2288e-05
+    }
+   ],
+   "daily": [
+    {
+     "date": "2026-09-23",
+     "value": 0.000937984
+    },
+    {
+     "date": "2026-09-24",
+     "value": 0.000937984
+    },
+    {
+     "date": "2026-09-25",
+     "value": 0.001036288
+    },
+    {
+     "date": "2026-09-26",
+     "value": 0.001036288
+    },
+    {
+     "date": "2026-09-27",
+     "value": 0.0011018240000000002
+    },
+    {
+     "date": "2026-09-28",
+     "value": 0.0010690559999999999
+    },
+    {
+     "date": "2026-09-29",
+     "value": 0.0010362879999999998
+    },
+    {
+     "date": "2026-09-30",
+     "value": 0.001036288
+    },
+    {
+     "date": "2026-10-01",
+     "value": 0.34194637200000005
+    },
+    {
+     "date": "2026-10-02",
+     "value": 0.346279932
+    },
+    {
+     "date": "2026-10-03",
+     "value": 0.34635776
+    },
+    {
+     "date": "2026-10-04",
+     "value": 0.34649702600000004
+    },
+    {
+     "date": "2026-10-05",
+     "value": 0.346611716
+    },
+    {
+     "date": "2026-10-06",
+     "value": 0.346783742
+    },
+    {
+     "date": "2026-10-07",
+     "value": 0.34682061200000003
+    }
+   ]
+  },
+  {
+   "key": "do_kv_read_units",
+   "label": "DO KV read units",
+   "group": "Durable Objects",
+   "unit": "count",
+   "kind": "flow",
+   "used": 0,
+   "included": 1000000,
+   "pct": 0,
+   "projected": 0,
+   "projectedPct": 0,
+   "rate24h": 0,
+   "status": "ok",
+   "overage": {
+    "units": 0,
+    "usd": 0
+   },
+   "price": "$0.20 / million",
+   "sampled": false,
+   "top": [],
+   "daily": [
+    {
+     "date": "2026-09-23",
+     "value": 0
+    },
+    {
+     "date": "2026-09-24",
+     "value": 0
+    },
+    {
+     "date": "2026-09-25",
+     "value": 0
+    },
+    {
+     "date": "2026-09-26",
+     "value": 0
+    },
+    {
+     "date": "2026-09-27",
+     "value": 0
+    },
+    {
+     "date": "2026-09-28",
+     "value": 0
+    },
+    {
+     "date": "2026-09-29",
+     "value": 0
+    },
+    {
+     "date": "2026-09-30",
+     "value": 0
+    },
+    {
+     "date": "2026-10-01",
+     "value": 0
+    },
+    {
+     "date": "2026-10-02",
+     "value": 0
+    },
+    {
+     "date": "2026-10-03",
+     "value": 0
+    },
+    {
+     "date": "2026-10-04",
+     "value": 0
+    },
+    {
+     "date": "2026-10-05",
+     "value": 0
+    },
+    {
+     "date": "2026-10-06",
+     "value": 0
+    },
+    {
+     "date": "2026-10-07",
+     "value": 0
+    }
+   ]
+  },
+  {
+   "key": "do_kv_write_units",
+   "label": "DO KV write units",
+   "group": "Durable Objects",
+   "unit": "count",
+   "kind": "flow",
+   "used": 0,
+   "included": 1000000,
+   "pct": 0,
+   "projected": 0,
+   "projectedPct": 0,
+   "rate24h": 0,
+   "status": "ok",
+   "overage": {
+    "units": 0,
+    "usd": 0
+   },
+   "price": "$1.00 / million",
+   "sampled": false,
+   "top": [],
+   "daily": [
+    {
+     "date": "2026-09-23",
+     "value": 0
+    },
+    {
+     "date": "2026-09-24",
+     "value": 0
+    },
+    {
+     "date": "2026-09-25",
+     "value": 0
+    },
+    {
+     "date": "2026-09-26",
+     "value": 0
+    },
+    {
+     "date": "2026-09-27",
+     "value": 0
+    },
+    {
+     "date": "2026-09-28",
+     "value": 0
+    },
+    {
+     "date": "2026-09-29",
+     "value": 0
+    },
+    {
+     "date": "2026-09-30",
+     "value": 0
+    },
+    {
+     "date": "2026-10-01",
+     "value": 0
+    },
+    {
+     "date": "2026-10-02",
+     "value": 0
+    },
+    {
+     "date": "2026-10-03",
+     "value": 0
+    },
+    {
+     "date": "2026-10-04",
+     "value": 0
+    },
+    {
+     "date": "2026-10-05",
+     "value": 0
+    },
+    {
+     "date": "2026-10-06",
+     "value": 0
+    },
+    {
+     "date": "2026-10-07",
+     "value": 0
+    }
+   ]
+  },
+  {
+   "key": "do_kv_deletes",
+   "label": "DO KV deletes",
+   "group": "Durable Objects",
+   "unit": "count",
+   "kind": "flow",
+   "used": 0,
+   "included": 1000000,
+   "pct": 0,
+   "projected": 0,
+   "projectedPct": 0,
+   "rate24h": 0,
+   "status": "ok",
+   "overage": {
+    "units": 0,
+    "usd": 0
+   },
+   "price": "$1.00 / million",
+   "sampled": false,
+   "top": [],
+   "daily": [
+    {
+     "date": "2026-09-23",
+     "value": 0
+    },
+    {
+     "date": "2026-09-24",
+     "value": 0
+    },
+    {
+     "date": "2026-09-25",
+     "value": 0
+    },
+    {
+     "date": "2026-09-26",
+     "value": 0
+    },
+    {
+     "date": "2026-09-27",
+     "value": 0
+    },
+    {
+     "date": "2026-09-28",
+     "value": 0
+    },
+    {
+     "date": "2026-09-29",
+     "value": 0
+    },
+    {
+     "date": "2026-09-30",
+     "value": 0
+    },
+    {
+     "date": "2026-10-01",
+     "value": 0
+    },
+    {
+     "date": "2026-10-02",
+     "value": 0
+    },
+    {
+     "date": "2026-10-03",
+     "value": 0
+    },
+    {
+     "date": "2026-10-04",
+     "value": 0
+    },
+    {
+     "date": "2026-10-05",
+     "value": 0
+    },
+    {
+     "date": "2026-10-06",
+     "value": 0
+    },
+    {
+     "date": "2026-10-07",
+     "value": 0
+    }
+   ]
+  },
+  {
+   "key": "do_kv_storage_gb",
+   "label": "DO KV storage",
+   "group": "Durable Objects",
+   "unit": "gb",
+   "kind": "storage",
+   "used": 0,
+   "included": 1,
+   "pct": 0,
+   "projected": 0,
+   "projectedPct": 0,
+   "rate24h": 0,
+   "status": "ok",
+   "overage": {
+    "units": 0,
+    "usd": 0
+   },
+   "price": "$0.20 / GB-month",
+   "sampled": false,
+   "top": [],
+   "daily": []
+  },
+  {
+   "key": "d1_rows_read",
+   "label": "D1 rows read",
+   "group": "D1",
+   "unit": "count",
+   "kind": "flow",
+   "used": 99324787,
+   "included": 25000000000,
+   "pct": 0.00397299148,
+   "projected": 1483741142.199314,
+   "projectedPct": 0.05934964568797257,
+   "rate24h": 86926147,
+   "status": "ok",
+   "overage": {
+    "units": 0,
+    "usd": 0
+   },
+   "price": "$0.001 / million",
+   "sampled": true,
+   "top": [
+    {
+     "name": "music-library",
+     "value": 90877179
+    },
+    {
+     "name": "sensors",
+     "value": 4137693
+    },
+    {
+     "name": "price-tracker-db",
+     "value": 1859344
+    },
+    {
+     "name": "research-feed-db",
+     "value": 1853008
+    },
+    {
+     "name": "jobs-worker-db",
+     "value": 565446
+    }
+   ],
+   "daily": [
+    {
+     "date": "2026-09-23",
+     "value": 41002
+    },
+    {
+     "date": "2026-09-24",
+     "value": 2342957
+    },
+    {
+     "date": "2026-09-25",
+     "value": 193565
+    },
+    {
+     "date": "2026-09-26",
+     "value": 193719
+    },
+    {
+     "date": "2026-09-27",
+     "value": 291088
+    },
+    {
+     "date": "2026-09-28",
+     "value": 441160
+    },
+    {
+     "date": "2026-09-29",
+     "value": 411684
+    },
+    {
+     "date": "2026-09-30",
+     "value": 1237744
+    },
+    {
+     "date": "2026-10-01",
+     "value": 2186091
+    },
+    {
+     "date": "2026-10-02",
+     "value": 233150
+    },
+    {
+     "date": "2026-10-03",
+     "value": 220142
+    },
+    {
+     "date": "2026-10-04",
+     "value": 211414
+    },
+    {
+     "date": "2026-10-05",
+     "value": 217957
+    },
+    {
+     "date": "2026-10-06",
+     "value": 71120304
+    },
+    {
+     "date": "2026-10-07",
+     "value": 19957468
+    }
+   ]
+  },
+  {
+   "key": "d1_rows_written",
+   "label": "D1 rows written",
+   "group": "D1",
+   "unit": "count",
+   "kind": "flow",
+   "used": 5405043,
+   "included": 50000000,
+   "pct": 0.10810086,
+   "projected": 43709892.76956812,
+   "projectedPct": 0.8741978553913624,
+   "rate24h": 2405124,
+   "status": "ok",
+   "overage": {
+    "units": 0,
+    "usd": 0
+   },
+   "price": "$1.00 / million",
+   "sampled": true,
+   "top": [
+    {
+     "name": "sensors",
+     "value": 2887948
+    },
+    {
+     "name": "music-library",
+     "value": 2404096
+    },
+    {
+     "name": "price-tracker-db",
+     "value": 79015
+    },
+    {
+     "name": "research-feed-db",
+     "value": 31559
+    },
+    {
+     "name": "jobs-worker-db",
+     "value": 1421
+    }
+   ],
+   "daily": [
+    {
+     "date": "2026-09-23",
+     "value": 8
+    },
+    {
+     "date": "2026-09-24",
+     "value": 1234142
+    },
+    {
+     "date": "2026-09-25",
+     "value": 275615
+    },
+    {
+     "date": "2026-09-26",
+     "value": 275338
+    },
+    {
+     "date": "2026-09-27",
+     "value": 282196
+    },
+    {
+     "date": "2026-09-28",
+     "value": 287875
+    },
+    {
+     "date": "2026-09-29",
+     "value": 287163
+    },
+    {
+     "date": "2026-09-30",
+     "value": 302071
+    },
+    {
+     "date": "2026-10-01",
+     "value": 26897
+    },
+    {
+     "date": "2026-10-02",
+     "value": 3308
+    },
+    {
+     "date": "2026-10-03",
+     "value": 3106
+    },
+    {
+     "date": "2026-10-04",
+     "value": 3324
+    },
+    {
+     "date": "2026-10-05",
+     "value": 9573
+    },
+    {
+     "date": "2026-10-06",
+     "value": 2395969
+    },
+    {
+     "date": "2026-10-07",
+     "value": 18168
+    }
+   ]
+  },
+  {
+   "key": "d1_storage_gb",
+   "label": "D1 storage",
+   "group": "D1",
+   "unit": "gb",
+   "kind": "storage",
+   "used": 0.4376076316,
+   "included": 5,
+   "pct": 0.08752152632,
+   "projected": 0.47438397679999994,
+   "projectedPct": 0.09487679535999999,
+   "rate24h": 0.511160322,
+   "status": "ok",
+   "overage": {
+    "units": 0,
+    "usd": 0
+   },
+   "price": "$0.75 / GB-month",
+   "sampled": false,
+   "top": [
+    {
+     "name": "clinic-staging",
+     "value": 0.34772173
+    },
+    {
+     "name": "music-library",
+     "value": 0.13682688
+    },
+    {
+     "name": "research-feed-db",
+     "value": 0.01032192
+    },
+    {
+     "name": "job-tracker-db",
+     "value": 0.009068544
+    },
+    {
+     "name": "price-tracker-db",
+     "value": 0.002121728
+    }
+   ],
+   "daily": [
+    {
+     "date": "2026-09-23",
+     "value": 0.36147609799999997
+    },
+    {
+     "date": "2026-09-24",
+     "value": 0.416722946
+    },
+    {
+     "date": "2026-09-25",
+     "value": 0.42853171199999995
+    },
+    {
+     "date": "2026-09-26",
+     "value": 0.440332292
+    },
+    {
+     "date": "2026-09-27",
+     "value": 0.454316036
+    },
+    {
+     "date": "2026-09-28",
+     "value": 0.4662313
+    },
+    {
+     "date": "2026-09-29",
+     "value": 0.478195718
+    },
+    {
+     "date": "2026-09-30",
+     "value": 0.498933764
+    },
+    {
+     "date": "2026-10-01",
+     "value": 0.5004656639999999
+    },
+    {
+     "date": "2026-10-02",
+     "value": 0.374300674
+    },
+    {
+     "date": "2026-10-03",
+     "value": 0.37432525
+    },
+    {
+     "date": "2026-10-04",
+     "value": 0.37434573
+    },
+    {
+     "date": "2026-10-05",
+     "value": 0.37441536200000003
+    },
+    {
+     "date": "2026-10-06",
+     "value": 0.510361606
+    },
+    {
+     "date": "2026-10-07",
+     "value": 0.5111603220000001
+    }
+   ]
+  },
+  {
+   "key": "r2_class_a",
+   "label": "R2 Class A ops",
+   "group": "R2",
+   "unit": "count",
+   "kind": "flow",
+   "used": 79083,
+   "included": 1000000,
+   "pct": 0.079083,
+   "projected": 168576.7530766771,
+   "projectedPct": 0.1685767530766771,
+   "rate24h": 256,
+   "status": "ok",
+   "overage": {
+    "units": 0,
+    "usd": 0
+   },
+   "price": "$4.50 / million",
+   "sampled": true,
+   "top": [
+    {
+     "name": "mailbox",
+     "value": 77913
+    },
+    {
+     "name": "price-tracker",
+     "value": 1026
+    },
+    {
+     "name": "(account)",
+     "value": 113
+    },
+    {
+     "name": "book-club",
+     "value": 26
+    },
+    {
+     "name": "links-files",
+     "value": 2
+    }
+   ],
+   "daily": [
+    {
+     "date": "2026-09-23",
+     "value": 0
+    },
+    {
+     "date": "2026-09-24",
+     "value": 14
+    },
+    {
+     "date": "2026-09-25",
+     "value": 30
+    },
+    {
+     "date": "2026-09-26",
+     "value": 24
+    },
+    {
+     "date": "2026-09-27",
+     "value": 662
+    },
+    {
+     "date": "2026-09-28",
+     "value": 150
+    },
+    {
+     "date": "2026-09-29",
+     "value": 86
+    },
+    {
+     "date": "2026-09-30",
+     "value": 1398
+    },
+    {
+     "date": "2026-10-01",
+     "value": 76259
+    },
+    {
+     "date": "2026-10-02",
+     "value": 64
+    },
+    {
+     "date": "2026-10-03",
+     "value": 41
+    },
+    {
+     "date": "2026-10-04",
+     "value": 36
+    },
+    {
+     "date": "2026-10-05",
+     "value": 56
+    },
+    {
+     "date": "2026-10-06",
+     "value": 251
+    },
+    {
+     "date": "2026-10-07",
+     "value": 12
+    }
+   ]
+  },
+  {
+   "key": "r2_class_b",
+   "label": "R2 Class B ops",
+   "group": "R2",
+   "unit": "count",
+   "kind": "flow",
+   "used": 43713,
+   "included": 10000000,
+   "pct": 0.0043713,
+   "projected": 93180.52687987033,
+   "projectedPct": 0.009318052687987034,
+   "rate24h": 214,
+   "status": "ok",
+   "overage": {
+    "units": 0,
+    "usd": 0
+   },
+   "price": "$0.36 / million",
+   "sampled": true,
+   "top": [
+    {
+     "name": "mailbox",
+     "value": 41981
+    },
+    {
+     "name": "price-tracker",
+     "value": 1665
+    },
+    {
+     "name": "book-club",
+     "value": 44
+    },
+    {
+     "name": "research-feed-files",
+     "value": 14
+    },
+    {
+     "name": "links-files",
+     "value": 6
+    }
+   ],
+   "daily": [
+    {
+     "date": "2026-09-23",
+     "value": 0
+    },
+    {
+     "date": "2026-09-24",
+     "value": 31
+    },
+    {
+     "date": "2026-09-25",
+     "value": 19
+    },
+    {
+     "date": "2026-09-26",
+     "value": 0
+    },
+    {
+     "date": "2026-09-27",
+     "value": 656
+    },
+    {
+     "date": "2026-09-28",
+     "value": 229
+    },
+    {
+     "date": "2026-09-29",
+     "value": 109
+    },
+    {
+     "date": "2026-09-30",
+     "value": 739
+    },
+    {
+     "date": "2026-10-01",
+     "value": 38920
+    },
+    {
+     "date": "2026-10-02",
+     "value": 127
+    },
+    {
+     "date": "2026-10-03",
+     "value": 101
+    },
+    {
+     "date": "2026-10-04",
+     "value": 2426
+    },
+    {
+     "date": "2026-10-05",
+     "value": 138
+    },
+    {
+     "date": "2026-10-06",
+     "value": 196
+    },
+    {
+     "date": "2026-10-07",
+     "value": 22
+    }
+   ]
+  },
+  {
+   "key": "r2_storage_gb",
+   "label": "R2 storage",
+   "group": "R2",
+   "unit": "gb",
+   "kind": "storage",
+   "used": 2.3396154310000004,
+   "included": 10,
+   "pct": 0.23396154310000003,
+   "projected": 3.6285293734999993,
+   "projectedPct": 0.3628529373499999,
+   "rate24h": 4.917443315999999,
+   "status": "ok",
+   "overage": {
+    "units": 0,
+    "usd": 0
+   },
+   "price": "$0.015 / GB-month",
+   "sampled": false,
+   "top": [
+    {
+     "name": "mailbox",
+     "value": 4.835924529
+    },
+    {
+     "name": "book-club",
+     "value": 0.054460431
+    },
+    {
+     "name": "price-tracker",
+     "value": 0.025695321
+    },
+    {
+     "name": "clinic-bucket",
+     "value": 0.001355736
+    },
+    {
+     "name": "research-feed-files",
+     "value": 7.22e-06
+    }
+   ],
+   "daily": [
+    {
+     "date": "2026-09-23",
+     "value": 0.056339898000000006
+    },
+    {
+     "date": "2026-09-24",
+     "value": 0.058152220000000004
+    },
+    {
+     "date": "2026-09-25",
+     "value": 0.058172657
+    },
+    {
+     "date": "2026-09-26",
+     "value": 0.053960666000000004
+    },
+    {
+     "date": "2026-09-27",
+     "value": 0.087313771
+    },
+    {
+     "date": "2026-09-28",
+     "value": 0.094248775
+    },
+    {
+     "date": "2026-09-29",
+     "value": 0.090903716
+    },
+    {
+     "date": "2026-09-30",
+     "value": 0.173950144
+    },
+    {
+     "date": "2026-10-01",
+     "value": 4.919039685
+    },
+    {
+     "date": "2026-10-02",
+     "value": 4.915197604
+    },
+    {
+     "date": "2026-10-03",
+     "value": 4.91569667
+    },
+    {
+     "date": "2026-10-04",
+     "value": 4.916979555
+    },
+    {
+     "date": "2026-10-05",
+     "value": 4.919466587
+    },
+    {
+     "date": "2026-10-06",
+     "value": 4.917366201
+    },
+    {
+     "date": "2026-10-07",
+     "value": 4.917443316
+    }
+   ]
+  },
+  {
+   "key": "kv_reads",
+   "label": "KV reads",
+   "group": "KV",
+   "unit": "count",
+   "kind": "flow",
+   "used": 131218,
+   "included": 10000000,
+   "pct": 0.0131218,
+   "projected": 289143.6995959616,
+   "projectedPct": 0.028914369959596162,
+   "rate24h": 9916,
+   "status": "ok",
+   "overage": {
+    "units": 0,
+    "usd": 0
+   },
+   "price": "$0.50 / million",
+   "sampled": true,
+   "top": [
+    {
+     "name": "CACHE",
+     "value": 122153
+    },
+    {
+     "name": "jobs_worker_state",
+     "value": 7018
+    },
+    {
+     "name": "research-feed-cache",
+     "value": 1955
+    },
+    {
+     "name": "music-library-cache",
+     "value": 71
+    },
+    {
+     "name": "INVITE_KV",
+     "value": 14
+    }
+   ],
+   "daily": [
+    {
+     "date": "2026-09-23",
+     "value": 9097
+    },
+    {
+     "date": "2026-09-24",
+     "value": 9131
+    },
+    {
+     "date": "2026-09-25",
+     "value": 9110
+    },
+    {
+     "date": "2026-09-26",
+     "value": 9137
+    },
+    {
+     "date": "2026-09-27",
+     "value": 9130
+    },
+    {
+     "date": "2026-09-28",
+     "value": 9101
+    },
+    {
+     "date": "2026-09-29",
+     "value": 9095
+    },
+    {
+     "date": "2026-09-30",
+     "value": 10534
+    },
+    {
+     "date": "2026-10-01",
+     "value": 9666
+    },
+    {
+     "date": "2026-10-02",
+     "value": 9095
+    },
+    {
+     "date": "2026-10-03",
+     "value": 9079
+    },
+    {
+     "date": "2026-10-04",
+     "value": 9071
+    },
+    {
+     "date": "2026-10-05",
+     "value": 9351
+    },
+    {
+     "date": "2026-10-06",
+     "value": 9908
+    },
+    {
+     "date": "2026-10-07",
+     "value": 695
+    }
+   ]
+  },
+  {
+   "key": "kv_writes",
+   "label": "KV writes",
+   "group": "KV",
+   "unit": "count",
+   "kind": "flow",
+   "used": 4569,
+   "included": 1000000,
+   "pct": 0.004569,
+   "projected": 11481.036468802675,
+   "projectedPct": 0.011481036468802676,
+   "rate24h": 434,
+   "status": "ok",
+   "overage": {
+    "units": 0,
+    "usd": 0
+   },
+   "price": "$5.00 / million",
+   "sampled": true,
+   "top": [
+    {
+     "name": "CACHE",
+     "value": 2272
+    },
+    {
+     "name": "jobs_worker_state",
+     "value": 1169
+    },
+    {
+     "name": "research-feed-cache",
+     "value": 1051
+    },
+    {
+     "name": "music-library-cache",
+     "value": 44
+    },
+    {
+     "name": "INVITE_KV",
+     "value": 25
+    }
+   ],
+   "daily": [
+    {
+     "date": "2026-09-23",
+     "value": 215
+    },
+    {
+     "date": "2026-09-24",
+     "value": 256
+    },
+    {
+     "date": "2026-09-25",
+     "value": 224
+    },
+    {
+     "date": "2026-09-26",
+     "value": 231
+    },
+    {
+     "date": "2026-09-27",
+     "value": 246
+    },
+    {
+     "date": "2026-09-28",
+     "value": 215
+    },
+    {
+     "date": "2026-09-29",
+     "value": 220
+    },
+    {
+     "date": "2026-09-30",
+     "value": 974
+    },
+    {
+     "date": "2026-10-01",
+     "value": 547
+    },
+    {
+     "date": "2026-10-02",
+     "value": 213
+    },
+    {
+     "date": "2026-10-03",
+     "value": 217
+    },
+    {
+     "date": "2026-10-04",
+     "value": 222
+    },
+    {
+     "date": "2026-10-05",
+     "value": 322
+    },
+    {
+     "date": "2026-10-06",
+     "value": 427
+    },
+    {
+     "date": "2026-10-07",
+     "value": 39
+    }
+   ]
+  },
+  {
+   "key": "kv_deletes",
+   "label": "KV deletes",
+   "group": "KV",
+   "unit": "count",
+   "kind": "flow",
+   "used": 2334,
+   "included": 1000000,
+   "pct": 0.002334,
+   "projected": 8019.707417886072,
+   "projectedPct": 0.008019707417886072,
+   "rate24h": 357,
+   "status": "ok",
+   "overage": {
+    "units": 0,
+    "usd": 0
+   },
+   "price": "$5.00 / million",
+   "sampled": true,
+   "top": [
+    {
+     "name": "jobs_worker_state",
+     "value": 2311
+    },
+    {
+     "name": "CACHE",
+     "value": 20
+    },
+    {
+     "name": "INVITE_KV",
+     "value": 3
+    }
+   ],
+   "daily": [
+    {
+     "date": "2026-09-23",
+     "value": 143
+    },
+    {
+     "date": "2026-09-24",
+     "value": 143
+    },
+    {
+     "date": "2026-09-25",
+     "value": 148
+    },
+    {
+     "date": "2026-09-26",
+     "value": 143
+    },
+    {
+     "date": "2026-09-27",
+     "value": 148
+    },
+    {
+     "date": "2026-09-28",
+     "value": 144
+    },
+    {
+     "date": "2026-09-29",
+     "value": 143
+    },
+    {
+     "date": "2026-09-30",
+     "value": 146
+    },
+    {
+     "date": "2026-10-01",
+     "value": 143
+    },
+    {
+     "date": "2026-10-02",
+     "value": 145
+    },
+    {
+     "date": "2026-10-03",
+     "value": 143
+    },
+    {
+     "date": "2026-10-04",
+     "value": 143
+    },
+    {
+     "date": "2026-10-05",
+     "value": 231
+    },
+    {
+     "date": "2026-10-06",
+     "value": 357
+    },
+    {
+     "date": "2026-10-07",
+     "value": 14
+    }
+   ]
+  },
+  {
+   "key": "kv_lists",
+   "label": "KV lists",
+   "group": "KV",
+   "unit": "count",
+   "kind": "flow",
+   "used": 20261,
+   "included": 1000000,
+   "pct": 0.020261,
+   "projected": 43210.87223858216,
+   "projectedPct": 0.04321087223858216,
+   "rate24h": 1441,
+   "status": "ok",
+   "overage": {
+    "units": 0,
+    "usd": 0
+   },
+   "price": "$5.00 / million",
+   "sampled": true,
+   "top": [
+    {
+     "name": "jobs_worker_state",
+     "value": 20257
+    },
+    {
+     "name": "music-library-cache",
+     "value": 4
+    }
+   ],
+   "daily": [
+    {
+     "date": "2026-09-23",
+     "value": 1439
+    },
+    {
+     "date": "2026-09-24",
+     "value": 1439
+    },
+    {
+     "date": "2026-09-25",
+     "value": 1441
+    },
+    {
+     "date": "2026-09-26",
+     "value": 1440
+    },
+    {
+     "date": "2026-09-27",
+     "value": 1438
+    },
+    {
+     "date": "2026-09-28",
+     "value": 1439
+    },
+    {
+     "date": "2026-09-29",
+     "value": 1440
+    },
+    {
+     "date": "2026-09-30",
+     "value": 1439
+    },
+    {
+     "date": "2026-10-01",
+     "value": 1441
+    },
+    {
+     "date": "2026-10-02",
+     "value": 1440
+    },
+    {
+     "date": "2026-10-03",
+     "value": 1439
+    },
+    {
+     "date": "2026-10-04",
+     "value": 1439
+    },
+    {
+     "date": "2026-10-05",
+     "value": 1439
+    },
+    {
+     "date": "2026-10-06",
+     "value": 1441
+    },
+    {
+     "date": "2026-10-07",
+     "value": 104
+    }
+   ]
+  },
+  {
+   "key": "kv_storage_gb",
+   "label": "KV storage",
+   "group": "KV",
+   "unit": "gb",
+   "kind": "storage",
+   "used": 0.008392445272727273,
+   "included": 1,
+   "pct": 0.008392445272727273,
+   "projected": 0.0174714545,
+   "projectedPct": 0.0174714545,
+   "rate24h": 0.022727723000000002,
+   "status": "ok",
+   "overage": {
+    "units": 0,
+    "usd": 0
+   },
+   "price": "$0.50 / GB-month",
+   "sampled": false,
+   "top": [
+    {
+     "name": "research-feed-cache",
+     "value": 0.022583603
+    },
+    {
+     "name": "jobs_worker_state",
+     "value": 0.000135295
+    },
+    {
+     "name": "INVITE_KV",
+     "value": 8.126e-06
+    },
+    {
+     "name": "CACHE",
+     "value": 6.99e-07
+    }
+   ],
+   "daily": [
+    {
+     "date": "2026-09-23",
+     "value": 0.00016243499999999997
+    },
+    {
+     "date": "2026-09-24",
+     "value": 0.000199469
+    },
+    {
+     "date": "2026-09-25",
+     "value": 0.000202599
+    },
+    {
+     "date": "2026-09-26",
+     "value": 0.000200946
+    },
+    {
+     "date": "2026-09-28",
+     "value": 0.000241978
+    },
+    {
+     "date": "2026-09-29",
+     "value": 0.000182883
+    },
+    {
+     "date": "2026-09-30",
+     "value": 0.000182883
+    },
+    {
+     "date": "2026-10-03",
+     "value": 0.022760536
+    },
+    {
+     "date": "2026-10-04",
+     "value": 0.022727723000000002
+    },
+    {
+     "date": "2026-10-05",
+     "value": 0.022727723000000002
+    },
+    {
+     "date": "2026-10-06",
+     "value": 0.022727723000000002
+    }
+   ]
+  },
+  {
+   "key": "queues_ops",
+   "label": "Queues operations",
+   "group": "Queues",
+   "unit": "count",
+   "kind": "flow",
+   "used": 116178,
+   "included": 1000000,
+   "pct": 0.116178,
+   "projected": 247650.06409648331,
+   "projectedPct": 0.24765006409648332,
+   "rate24h": 521,
+   "status": "ok",
+   "overage": {
+    "units": 0,
+    "usd": 0
+   },
+   "price": "$0.40 / million",
+   "sampled": true,
+   "top": [
+    {
+     "name": "mailbox-ingest",
+     "value": 114590
+    },
+    {
+     "name": "research-feed-jobs",
+     "value": 941
+    },
+    {
+     "name": "jobs-worker-jobs",
+     "value": 605
+    },
+    {
+     "name": "job-tracker-jobs",
+     "value": 42
+    }
+   ],
+   "daily": [
+    {
+     "date": "2026-09-23",
+     "value": 3
+    },
+    {
+     "date": "2026-09-24",
+     "value": 3
+    },
+    {
+     "date": "2026-09-25",
+     "value": 15
+    },
+    {
+     "date": "2026-09-26",
+     "value": 3
+    },
+    {
+     "date": "2026-09-27",
+     "value": 3
+    },
+    {
+     "date": "2026-09-28",
+     "value": 3
+    },
+    {
+     "date": "2026-09-29",
+     "value": 3
+    },
+    {
+     "date": "2026-09-30",
+     "value": 2420
+    },
+    {
+     "date": "2026-10-01",
+     "value": 112931
+    },
+    {
+     "date": "2026-10-02",
+     "value": 36
+    },
+    {
+     "date": "2026-10-03",
+     "value": 24
+    },
+    {
+     "date": "2026-10-04",
+     "value": 18
+    },
+    {
+     "date": "2026-10-05",
+     "value": 192
+    },
+    {
+     "date": "2026-10-06",
+     "value": 518
+    },
+    {
+     "date": "2026-10-07",
+     "value": 6
+    }
+   ]
+  }
+ ],
+ "alerts": [
+  {
+   "id": "threshold:d1_rows_written:10:2026-09-23",
+   "kind": "threshold",
+   "severity": "info",
+   "metric": "d1_rows_written",
+   "title": "D1 rows written at 10%",
+   "body": "5.41M of 50M used, 16 days left. sensors made 53%.",
+   "createdAt": "2026-10-07T01:45:32Z",
+   "ackedAt": null,
+   "suggested": [
+    {
+     "kind": "workers_dev_off",
+     "target": "sensor-hub",
+     "label": "Turn off sensor-hub on workers.dev",
+     "description": "Stops requests through the workers.dev URL and preview URLs. Custom domains, cron triggers and queue consumers keep running."
+    },
+    {
+     "kind": "waf_block",
+     "target": "music.example.com",
+     "label": "Block music.example.com",
+     "description": "Cloudflare answers every request to music.example.com with a 403 before it reaches a Worker, so blocked requests aren't billed. Takes 6-20 s to reach every data centre. WebSockets already open stay open."
+    },
+    {
+     "kind": "cron_off",
+     "target": "music-library",
+     "label": "Stop music-library's cron triggers",
+     "description": "Removes the cron schedules; undo puts the same schedules back. HTTP traffic keeps flowing."
+    },
+    {
+     "kind": "waf_block",
+     "target": "prices.example.com",
+     "label": "Block prices.example.com",
+     "description": "Cloudflare answers every request to prices.example.com with a 403 before it reaches a Worker, so blocked requests aren't billed. Takes 6-20 s to reach every data centre. WebSockets already open stay open."
+    },
+    {
+     "kind": "cron_off",
+     "target": "price-tracker",
+     "label": "Stop price-tracker's cron triggers",
+     "description": "Removes the cron schedules; undo puts the same schedules back. HTTP traffic keeps flowing."
+    }
+   ]
+  },
+  {
+   "id": "threshold:do_requests:18:2026-09-23",
+   "kind": "threshold",
+   "severity": "critical",
+   "metric": "do_requests",
+   "title": "DO requests at 18%",
+   "body": "188.1k of 1M used, 16 days left. sensor-hub:MqttBroker made 60%.",
+   "createdAt": "2026-10-07T01:45:32Z",
+   "ackedAt": null,
+   "suggested": [
+    {
+     "kind": "workers_dev_off",
+     "target": "sensor-hub",
+     "label": "Turn off sensor-hub on workers.dev",
+     "description": "Stops requests through the workers.dev URL and preview URLs. Custom domains, cron triggers and queue consumers keep running."
+    },
+    {
+     "kind": "waf_block",
+     "target": "mail.example.com",
+     "label": "Block mail.example.com",
+     "description": "Cloudflare answers every request to mail.example.com with a 403 before it reaches a Worker, so blocked requests aren't billed. Takes 6-20 s to reach every data centre. WebSockets already open stay open."
+    },
+    {
+     "kind": "cron_off",
+     "target": "mailbox",
+     "label": "Stop mailbox's cron triggers",
+     "description": "Removes the cron schedules; undo puts the same schedules back. HTTP traffic keeps flowing."
+    }
+   ]
+  },
+  {
+   "id": "threshold:queues_ops:10:2026-09-23",
+   "kind": "threshold",
+   "severity": "info",
+   "metric": "queues_ops",
+   "title": "Queues operations at 10%",
+   "body": "116.2k of 1M used, 16 days left. mailbox-ingest made 99%.",
+   "createdAt": "2026-10-07T01:45:32Z",
+   "ackedAt": null,
+   "suggested": [
+    {
+     "kind": "queue_pause",
+     "target": "0e37af099e94bbd45b73ed9bb15cfefe",
+     "label": "Pause queue mailbox-ingest",
+     "description": "Stops delivery to consumers. Messages wait in the queue until resumed, and producers can still send (sends still count)."
+    },
+    {
+     "kind": "waf_block",
+     "target": "mail.example.com",
+     "label": "Block mail.example.com",
+     "description": "Cloudflare answers every request to mail.example.com with a 403 before it reaches a Worker, so blocked requests aren't billed. Takes 6-20 s to reach every data centre. WebSockets already open stay open."
+    },
+    {
+     "kind": "cron_off",
+     "target": "mailbox",
+     "label": "Stop mailbox's cron triggers",
+     "description": "Removes the cron schedules; undo puts the same schedules back. HTTP traffic keeps flowing."
+    },
+    {
+     "kind": "queue_pause",
+     "target": "223ecdc5a2f5f2f60ad21240b0d438ec",
+     "label": "Pause queue research-feed-jobs",
+     "description": "Stops delivery to consumers. Messages wait in the queue until resumed, and producers can still send (sends still count)."
+    },
+    {
+     "kind": "waf_block",
+     "target": "research.example.com",
+     "label": "Block research.example.com",
+     "description": "Cloudflare answers every request to research.example.com with a 403 before it reaches a Worker, so blocked requests aren't billed. Takes 6-20 s to reach every data centre. WebSockets already open stay open."
+    },
+    {
+     "kind": "queue_pause",
+     "target": "028c66220064bd61c0aebd210c06196d",
+     "label": "Pause queue jobs-worker-jobs",
+     "description": "Stops delivery to consumers. Messages wait in the queue until resumed, and producers can still send (sends still count)."
+    }
+   ]
+  }
+ ],
+ "kills": [
+  {
+   "kind": "cron_off",
+   "target": "jobs-worker",
+   "label": "Stop jobs-worker's cron triggers",
+   "description": "Removes the cron schedules; undo puts the same schedules back. HTTP traffic keeps flowing.",
+   "id": "cron_off:jobs-worker",
+   "state": "active",
+   "appliedAt": "2026-10-07T01:46:13Z",
+   "verifiedAt": null,
+   "restoredAt": null,
+   "reason": "fixture capture (dry run)",
+   "error": null
+  }
+ ]
+}

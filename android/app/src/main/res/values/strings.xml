@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CF Usage</string>
+    <string name="widget_overview">CF Usage · wide</string>
+    <string name="widget_wide_desc">4×2. Shows a widget you design in the app</string>
+    <string name="widget_metric">CF Usage · small</string>
+    <string name="widget_small_desc">2×2. Shows a widget you design in the app</string>
+    <string name="widget_top_workers">CF Usage · large</string>
+    <string name="widget_large_desc">4×3. Shows a widget you design in the app</string>
+</resources>

@@ -1,0 +1,414 @@
+{
+ "row": {
+  "host": "mail.example.com",
+  "zone": "example.com",
+  "requests": 4334,
+  "bytes": 26073263,
+  "blocked": 0,
+  "cachedShare": 0.04130133825565298,
+  "status4xx": 0.06114443931702815,
+  "status5xx": 0,
+  "service": "worker:mailbox",
+  "spark": [
+   154,
+   94,
+   79,
+   102,
+   76,
+   78,
+   81,
+   79,
+   78,
+   78,
+   79,
+   113,
+   132,
+   222,
+   730,
+   214,
+   133,
+   153,
+   69,
+   596,
+   243,
+   402,
+   163,
+   186
+  ],
+  "killable": [
+   {
+    "kind": "waf_block",
+    "target": "mail.example.com",
+    "label": "Block mail.example.com",
+    "description": "Cloudflare answers every request to mail.example.com with a 403 before it reaches a Worker, so blocked requests aren't billed. Takes 6-20 s to reach every data centre. WebSockets already open stay open."
+   }
+  ]
+ },
+ "bucket": "hour",
+ "series": [
+  {
+   "t": "2026-10-06T02:00:00Z",
+   "requests": 154,
+   "blocked": 0
+  },
+  {
+   "t": "2026-10-06T03:00:00Z",
+   "requests": 94,
+   "blocked": 0
+  },
+  {
+   "t": "2026-10-06T04:00:00Z",
+   "requests": 79,
+   "blocked": 0
+  },
+  {
+   "t": "2026-10-06T05:00:00Z",
+   "requests": 102,
+   "blocked": 0
+  },
+  {
+   "t": "2026-10-06T06:00:00Z",
+   "requests": 76,
+   "blocked": 0
+  },
+  {
+   "t": "2026-10-06T07:00:00Z",
+   "requests": 78,
+   "blocked": 0
+  },
+  {
+   "t": "2026-10-06T08:00:00Z",
+   "requests": 81,
+   "blocked": 0
+  },
+  {
+   "t": "2026-10-06T09:00:00Z",
+   "requests": 79,
+   "blocked": 0
+  },
+  {
+   "t": "2026-10-06T10:00:00Z",
+   "requests": 78,
+   "blocked": 0
+  },
+  {
+   "t": "2026-10-06T11:00:00Z",
+   "requests": 78,
+   "blocked": 0
+  },
+  {
+   "t": "2026-10-06T12:00:00Z",
+   "requests": 79,
+   "blocked": 0
+  },
+  {
+   "t": "2026-10-06T13:00:00Z",
+   "requests": 113,
+   "blocked": 0
+  },
+  {
+   "t": "2026-10-06T14:00:00Z",
+   "requests": 132,
+   "blocked": 0
+  },
+  {
+   "t": "2026-10-06T15:00:00Z",
+   "requests": 222,
+   "blocked": 0
+  },
+  {
+   "t": "2026-10-06T16:00:00Z",
+   "requests": 730,
+   "blocked": 0
+  },
+  {
+   "t": "2026-10-06T17:00:00Z",
+   "requests": 214,
+   "blocked": 0
+  },
+  {
+   "t": "2026-10-06T18:00:00Z",
+   "requests": 133,
+   "blocked": 0
+  },
+  {
+   "t": "2026-10-06T19:00:00Z",
+   "requests": 153,
+   "blocked": 0
+  },
+  {
+   "t": "2026-10-06T20:00:00Z",
+   "requests": 69,
+   "blocked": 0
+  },
+  {
+   "t": "2026-10-06T21:00:00Z",
+   "requests": 596,
+   "blocked": 0
+  },
+  {
+   "t": "2026-10-06T22:00:00Z",
+   "requests": 243,
+   "blocked": 0
+  },
+  {
+   "t": "2026-10-06T23:00:00Z",
+   "requests": 402,
+   "blocked": 0
+  },
+  {
+   "t": "2026-10-07T00:00:00Z",
+   "requests": 163,
+   "blocked": 0
+  },
+  {
+   "t": "2026-10-07T01:00:00Z",
+   "requests": 186,
+   "blocked": 0
+  }
+ ],
+ "paths": [
+  {
+   "path": "/jmap/api",
+   "requests": 2930
+  },
+  {
+   "path": "/.well-known/jmap",
+   "requests": 592
+  },
+  {
+   "path": "/api/favicon",
+   "requests": 261
+  },
+  {
+   "path": "/jmap/eventsource",
+   "requests": 145
+  },
+  {
+   "path": "/api/categories",
+   "requests": 56
+  },
+  {
+   "path": "/api/vips",
+   "requests": 37
+  },
+  {
+   "path": "/icon.svg",
+   "requests": 34
+  },
+  {
+   "path": "/en/__next.%24d%24locale.__PAGE__.txt",
+   "requests": 25
+  },
+  {
+   "path": "/en/settings/",
+   "requests": 20
+  },
+  {
+   "path": "/api/folders",
+   "requests": 20
+  },
+  {
+   "path": "/en/__next.$d$locale.__PAGE__.txt",
+   "requests": 20
+  },
+  {
+   "path": "/en/contacts/__next.$d$locale.contacts.__PAGE__.txt",
+   "requests": 19
+  },
+  {
+   "path": "/en/contacts/__next.%24d%24locale.contacts.__PAGE__.txt",
+   "requests": 16
+  },
+  {
+   "path": "/en/contacts/__next._tree.txt",
+   "requests": 15
+  },
+  {
+   "path": "/en/settings/__next.$d$locale.settings.__PAGE__.txt",
+   "requests": 11
+  },
+  {
+   "path": "/en/__next.$d$locale.txt",
+   "requests": 10
+  },
+  {
+   "path": "/_next/static/chunks/3zzrk8xhq8yhm.css",
+   "requests": 10
+  },
+  {
+   "path": "/_next/static/chunks/0fkt7--p2ct50.js",
+   "requests": 10
+  },
+  {
+   "path": "/_next/static/chunks/2wew__ioi6-y5.js",
+   "requests": 10
+  },
+  {
+   "path": "/en/contacts/",
+   "requests": 9
+  },
+  {
+   "path": "/en/",
+   "requests": 9
+  },
+  {
+   "path": "/_next/static/chunks/33yblcc16_jx9.js",
+   "requests": 8
+  },
+  {
+   "path": "/_next/static/chunks/06awtyi3v1mi9.js",
+   "requests": 8
+  },
+  {
+   "path": "/en/__next._tree.txt",
+   "requests": 8
+  },
+  {
+   "path": "/_next/static/chunks/2hq449l4aukpz.js",
+   "requests": 8
+  },
+  {
+   "path": "/_next/static/chunks/2r-f1j-3wutd7.js",
+   "requests": 6
+  },
+  {
+   "path": "/en/contacts/__next._index.txt",
+   "requests": 6
+  },
+  {
+   "path": "/",
+   "requests": 5
+  },
+  {
+   "path": "/_next/static/chunks/0pp3pydu6vr4_.css",
+   "requests": 4
+  },
+  {
+   "path": "/.git/config",
+   "requests": 4
+  },
+  {
+   "path": "/api/rules",
+   "requests": 3
+  },
+  {
+   "path": "/_next/static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2",
+   "requests": 3
+  },
+  {
+   "path": "/en/settings/__next._tree.txt",
+   "requests": 3
+  },
+  {
+   "path": "/_next/static/chunks/0wy1eb0w2ewx7.js",
+   "requests": 2
+  },
+  {
+   "path": "/en/contacts/__next.$d$locale.txt",
+   "requests": 2
+  },
+  {
+   "path": "/api/aliases",
+   "requests": 2
+  },
+  {
+   "path": "/en/__next._index.txt",
+   "requests": 1
+  },
+  {
+   "path": "/en/contacts/__next.%24d%24locale.txt",
+   "requests": 1
+  },
+  {
+   "path": "/en/settings/__next.%24d%24locale.settings.__PAGE__.txt",
+   "requests": 1
+  }
+ ],
+ "countries": [
+  {
+   "country": "US",
+   "requests": 4332
+  },
+  {
+   "country": "PL",
+   "requests": 2
+  }
+ ],
+ "statuses": [
+  {
+   "status": 200,
+   "requests": 3907
+  },
+  {
+   "status": 404,
+   "requests": 261
+  },
+  {
+   "status": 304,
+   "requests": 89
+  },
+  {
+   "status": 307,
+   "requests": 62
+  },
+  {
+   "status": 302,
+   "requests": 7
+  },
+  {
+   "status": 499,
+   "requests": 3
+  },
+  {
+   "status": 201,
+   "requests": 3
+  },
+  {
+   "status": 301,
+   "requests": 1
+  },
+  {
+   "status": 403,
+   "requests": 1
+  }
+ ],
+ "securityActions": [
+  {
+   "action": "unknown",
+   "requests": 4333
+  },
+  {
+   "action": "managed_challenge",
+   "requests": 1
+  }
+ ],
+ "userAgents": [
+  {
+   "agent": "Unknown",
+   "requests": 3502
+  },
+  {
+   "agent": "Chrome",
+   "requests": 831
+  },
+  {
+   "agent": "ChromeMobile",
+   "requests": 1
+  }
+ ],
+ "cache": [
+  {
+   "status": "none",
+   "requests": 4117
+  },
+  {
+   "status": "hit",
+   "requests": 179
+  },
+  {
+   "status": "miss",
+   "requests": 38
+  }
+ ]
+}

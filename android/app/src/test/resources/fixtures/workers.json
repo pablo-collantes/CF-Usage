@@ -1,0 +1,8 @@
+[
+  {"name": "mailbox", "kind": "worker", "requests": 57164, "errors": 12, "errorRate": 0.00021, "cpuMs": 340711.4,
+   "cpuMsPerRequest": 5.96, "subrequests": 1200, "shareOfRequests": 0.449, "hosts": ["mail.example.com"],
+   "spark": [1, 2, 3, 2, 1],
+   "killable": [{"kind": "waf_block", "target": "mail.example.com", "label": "Block mail.example.com", "description": "Blocks every request."}]},
+  {"name": "pages:pages-worker--1000001-production", "kind": "pages", "requests": 3130, "errors": 0, "errorRate": 0,
+   "cpuMs": 0, "cpuMsPerRequest": 0, "subrequests": 0, "shareOfRequests": 0.0246, "hosts": [], "spark": [], "killable": []}
+]
